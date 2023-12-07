@@ -3,6 +3,11 @@
     padding: 0px 18px;
     /* border: 2px solid black; */
     box-shadow: 0 2px 9px -1px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
 }
 
 .container {

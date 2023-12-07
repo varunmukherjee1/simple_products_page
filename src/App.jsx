@@ -1,8 +1,8 @@
 import {Routes,Route} from "react-router-dom"
 
 import Navbar from "./components/Navbar/Navbar"
-import ProductList from "./components/ProductList/ProductList"
-import Product from "./components/Product/Product"
+import Product from "./pages/product/Product"
+import Products from "./pages/products/Products"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route
           path = "/"
           element = {
-            <ProductList/>
+            <Products/>
           }
         />
         <Route
