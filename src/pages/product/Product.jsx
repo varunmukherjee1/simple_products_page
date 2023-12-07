@@ -43,8 +43,12 @@ const Product = () => {
           <p className = {classes.price}>
             {`Rs. ${productData.price}`}
           </p>
-          <div className = {classes.ratings}>
-
+          <div className = {classes.rating_box}>
+            <p>
+              Rating:
+              <span className = {classes.rating}>{productData.rating?.rate}</span>
+              <span className = {classes.count}>{productData.rating?.count} user feedbacks</span>
+            </p>
           </div>
           <p className = {classes.desc}>
             {productData.description}
