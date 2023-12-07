@@ -1,0 +1,31 @@
+.box {
+    width: 100%;
+    padding: 0px 18px;
+    /* border: 2px solid black; */
+    box-shadow: 0 2px 9px -1px rgba(0,0,0,0.5);
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.logo > img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.logo > p {
+    font-size: 28px;
+    font-weight: bold;
+}
